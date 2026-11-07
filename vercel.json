@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://rlw-first-timers.sites.tab.bot/api/:path*"
+    },
+    {
+      "source": "/team",
+      "destination": "/team.html"
+    },
+    {
+      "source": "/poster",
+      "destination": "/poster.html"
+    }
+  ]
+}
